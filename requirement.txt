@@ -1,0 +1,9 @@
+# 推荐切换 Python 版本为 3.10
+conda create -n roberta-lora python=3.10 -y
+conda activate roberta-lora
+
+pip install torch==2.6.0 torchvision==0.21.0
+pip install transformers==4.40.2
+pip install peft==0.11.1
+pip install accelerate datasets
+pip install safetensors
